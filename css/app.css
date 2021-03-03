@@ -24,7 +24,7 @@
   background: #000;
 }
 #root .container .header-container .logo {
-  height: 10%;
+  height: 100%;
   padding: 15px;
 }
 #root .container .header-container .logo img {

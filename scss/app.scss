@@ -13,7 +13,7 @@
 #root{
   width: 100%;
   min-height: 100vh;
-  background: $background-1;
+  background: $background-blue;
 
   .container{
     width: 1200px;
@@ -28,10 +28,10 @@
       width: 100%;
       height: 80px;
       margin: 0 auto;
-      background: $background-2;
+      background: $background-black;
 
       .logo{
-        height: 10%;
+        height: 100%;
         padding: 15px;
         img{
           height: 100%;
@@ -44,7 +44,7 @@
       @include container;
       width: 100%;
       min-height: calc(100vh - 80px);
-      background: $background-3;
+      background: $background-darckgrey;
       padding: 60px;
       display: flex;
       justify-content: space-between;
@@ -52,7 +52,7 @@
 
       .disk{
         width: calc((100% / 3) - 40px);
-        background: $background-2;
+        background: $background-black;
         color: $text-color-1;
         margin-bottom: 20px;
         text-align: center;
